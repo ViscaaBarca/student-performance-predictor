@@ -34,8 +34,8 @@ The final Random Forest model was evaluated on a held-out test set. Its performa
            1       0.97      0.92      0.94        65
 
     accuracy                           0.99       479
-   macro avg       0.98      0.96      0.97       479
-weighted avg       0.99      0.99      0.99       479
+    macro avg       0.98      0.96      0.97       479
+    weighted avg       0.99      0.99      0.99       479
 
 
 Interpretation:
@@ -106,6 +106,9 @@ print(f"  - High Performer (1):     {confidence_scores[1]:.2%}")
 
 Project Files
 Student_model_reg_class.ipynb: The Jupyter Notebook containing all data exploration, preprocessing, and model training code.
+
 Student_performance_data.csv: The raw dataset used for the project.
+
 rf_student.joblib: The saved, final Random Forest classification model object.
+
 README.md: This documentation file.
