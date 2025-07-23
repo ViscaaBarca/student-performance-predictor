@@ -13,7 +13,7 @@ Phase 1: Initial Regression Analysis
 The project initially aimed to predict the exact GPA for each student using various regression models.
 
 # Objective: To predict a continuous GPA value.
-Models Explored: [List the regression models you tried, e.g., Linear Regression, Ridge Regression, etc.]
+Models Explored: LineairRegression, DecisionTreeRegressor, RandomForestRegressor 
 Outcome: While this approach provided insights into the factors influencing GPA, it was determined that a more direct, actionable prediction was needed. The specific business question was not "What will the exact GPA be?" but rather "Is this student likely to be a high performer?".
 
 # Phase 2: Reframing as a Classification Problem
